@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FoodieDash - Checkout</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🍴 FoodieDash</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart 🛒</a>
+    </nav>
+  </header>
+
+  <section class="checkout">
+    <h2>Checkout</h2>
+    <form id="checkout-form">
+      <label>Name:<br><input type="text" required></label><br>
+      <label>Address:<br><input type="text" required></label><br>
+      <label>Payment Method:<br>
+        <select required>
+          <option>Credit Card</option>
+          <option>PayPal</option>
+          <option>Cash on Delivery</option>
+        </select>
+      </label><br>
+      <button type="submit">Place Order</button>
+    </form>
+    <p id="confirmation" style="display:none;">✅ Thank you! Your order has been placed.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 FoodieDash</p>
+  </footer>
+</body>
+</html>
