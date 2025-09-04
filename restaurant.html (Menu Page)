@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FoodieDash - Restaurant</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🍴 FoodieDash</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart 🛒</a>
+    </nav>
+  </header>
+
+  <section class="menu">
+    <h2>Pizza Palace Menu</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?pepperoni-pizza" alt="Pepperoni Pizza"/>
+        <h4>Pepperoni Pizza</h4>
+        <p>$12</p>
+        <button onclick="addToCart('Pepperoni Pizza', 12)">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?veggie-pizza" alt="Veggie Pizza"/>
+        <h4>Veggie Pizza</h4>
+        <p>$10</p>
+        <button onclick="addToCart('Veggie Pizza', 10)">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?margherita" alt="Margherita"/>
+        <h4>Margherita</h4>
+        <p>$9</p>
+        <button onclick="addToCart('Margherita', 9)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 FoodieDash</p>
+  </footer>
+</body>
+</html>
